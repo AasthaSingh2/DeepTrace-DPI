@@ -62,6 +62,7 @@ FLOW CLASSIFIED: 104.244.42.65:443 <-> 192.168.1.100:59993 proto=TCP app=X domai
 ```
 
 ### 📌 Output
+<img width="779" height="132" alt="image" src="https://github.com/user-attachments/assets/83a68bc7-b5fd-4f0d-9824-5a5ea72f03aa" />
 
 ```
 [blocked/classified] 142.250.185.110:443 <-> 192.168.1.100:58867 proto=TCP app=YouTube block_reason=app:YouTube
@@ -78,6 +79,7 @@ FLOW CLASSIFIED: 104.244.42.65:443 <-> 192.168.1.100:59993 proto=TCP app=X domai
 ```
 
 ### 📌 predictions.csv
+<img width="779" height="132" alt="image" src="https://github.com/user-attachments/assets/44e4fa8a-4717-4c57-987a-182118420fcc" />
 
 ```
 flow_id,predicted_app,domain,packet_count,byte_count
@@ -97,6 +99,7 @@ python ../scripts/eval.py --pred predictions.csv --labels ../data/labels.csv
 ```
 
 ### 📌 Output
+<img width="626" height="526" alt="image" src="https://github.com/user-attachments/assets/b230d6f0-e975-419d-b4c9-410ed41e9b57" />
 
 ```
 Accuracy: 0.8000
@@ -119,7 +122,8 @@ YouTube          0          0          0          0      0      1
 powershell -ExecutionPolicy Bypass -File ../scripts/bench.ps1
 ```
 
-### 📌 Output
+### 📌 Output  
+<img width="366" height="131" alt="image" src="https://github.com/user-attachments/assets/cd3e834f-f097-4093-a5b4-e3c5194e8475" />
 
 ```
 Run 1: 0.001584 s
