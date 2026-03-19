@@ -1,0 +1,22 @@
+# Build files
+build/
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Output files
+predictions.csv
+filtered.pcap
